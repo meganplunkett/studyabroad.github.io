@@ -1,0 +1,37 @@
+h2, p { color: black; }
+
+/* This is a comment*/
+
+h3 
+{color: #e2605e;}
+
+h1 {font-family: Jomolhari;}
+
+/*------------*/
+
+.thirds {
+    width: 33%;
+    display: inline-block;}
+
+/*------------*/ 
+img.fluid {
+    width: 100%;}
+
+/*------------*/ 
+.quarters{
+	width: 24.5%;
+    display: inline-block;}
+
+/*------------*/ 
+
+.halves {
+	width: 49.5%;
+    display: inline-block;}
+
+
+.img-container {
+        text-align: center;
+      }
+.row {
+margin: 0px
+}
