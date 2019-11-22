@@ -1,11 +1,16 @@
-h2, p { color: black; }
-
+h2 {font-family: Jomolhari;}
 /* This is a comment*/
 
 h3 
-{color: #e2605e;}
+{margin: 10px;color: black;}
 
-h1 {font-family: Jomolhari;}
+h4
+{font-family: Jomolhari; font-weight: bold}
+
+h1 {font-family: Jomolhari; font-weight: bold; color: #b78282;
+  text-decoration: underline}
+
+p {color: white}
 
 /*------------*/
 
@@ -32,6 +37,22 @@ img.fluid {
 .img-container {
         text-align: center;
       }
-.row {
-margin: 0px
+ 
+ul {
+letter-spacing: 2px; font-family: Jomolhari;
+}
+
+element.style {
+    padding: 5px;
+}
+
+div.row {
+	padding: 15px;
+}
+
+#header.jumbotron {
+  background-image: url("../brooke-cagle-NoRsyXmHGpI-unsplash.jpg");
+    background-position: center;
+    background-size: 1600px;
+
 }
