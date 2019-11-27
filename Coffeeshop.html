@@ -58,7 +58,7 @@
 <!-- Pictures -->
 
 <div class= "col-md-4 fluid">
-    <img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_397/v1574689713/photo-1507914464562-6ff4ac29692f_b20epz.jpg" class="fluid">
+    <img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_397/v1574689713/photo-1507914464562-6ff4ac29692f_b20epz.jpg" class="fluid lazy">
     <h3 class="text-center">Amanda Adams</h3>
     <h5 class= "text-center font-italic">Barista</h5>
       <center>
@@ -68,7 +68,7 @@
   </div>
 
 <div class= "col-md-4 fluid">
-    <img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_395/v1574689711/photo-1564758615972-fd7f13dbdc70_pu6ndx.jpg" class= "fluid">
+    <img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_395/v1574689711/photo-1564758615972-fd7f13dbdc70_pu6ndx.jpg" class= "fluid lazy">
     <h3 class="text-center">Ashley Cage</h3>
     <h5 class="text-center font-italic"> Purchasing Officer</h5>
       <center>
@@ -78,7 +78,7 @@
   </div>
 
   <div class= "col-md-4 fluid">
-    <img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_395/v1574689708/photo-1566843251739-8e129fef251d_krduxv.jpg" class= "fluid">
+    <img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_395/v1574689708/photo-1566843251739-8e129fef251d_krduxv.jpg" class= "fluid lazy">
     <h3 class="text-center">John Smith</h3>
     <h5 class="text-center font-italic">Musician</h5>
       <center>
@@ -147,29 +147,42 @@
 
   <div class="row">
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_294/v1574705108/photo-1563107488-d5849549fb40_vin2fl.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_294/v1574705108/photo-1563107488-d5849549fb40_vin2fl.jpg" class= "fluid lazy" style="width: 100%">
   </div>
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_299/v1574705038/photo-1566590470650-06090ab631ee_zlyc8s.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_299/v1574705038/photo-1566590470650-06090ab631ee_zlyc8s.jpg" class= "fluid lazy" style="width: 100%">
   </div>
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_297/v1574705041/photo-1556033773-42fa03c00513_rtuuny.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_297/v1574705041/photo-1556033773-42fa03c00513_rtuuny.jpg" class= "fluid lazy" style="width: 100%">
   </div>
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_292/v1574705039/photo-1569728767466-be75d5e810a6_uybbsi.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_292/v1574705039/photo-1569728767466-be75d5e810a6_uybbsi.jpg" class= "fluid lazy" style="width: 100%">
   </div>
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_299/v1574705110/photo-1556742400-b5b7c5121f99_1_baajnh.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_299/v1574705110/photo-1556742400-b5b7c5121f99_1_baajnh.jpg" class= "fluid lazy" style="width: 100%">
   </div>
   <div class="col px-0">
-<img src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_292/v1574705037/photo-1557186613-b3609b0d6ada_vdwmrj.jpg" class= "fluid" style="width: 100%">
+<img data-src="https://res.cloudinary.com/meganplunkett/image/upload/c_scale,w_292/v1574705037/photo-1557186613-b3609b0d6ada_vdwmrj.jpg" class= "fluid lazy" style="width: 100%">
   </div>
 </div>
 
 </div>
 
+<!-- Scripts-->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+
+<script type="text/javascript">
+
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
+
+</script>
 
 
+</body>
+</html>
 
 
 
