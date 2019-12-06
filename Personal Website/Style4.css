@@ -1,0 +1,53 @@
+.jumbotron {
+	background-image: url(https://images.unsplash.com/photo-1487044637087-33d7b23db33f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	background-position: top;
+	color: white;
+	font-family: 'Baskervville', serif,;
+}
+
+a.nav-link {
+    color: white;
+    background-color: gray;
+    font-family: 'Baskervville', serif;
+}
+
+nav li a: hover {
+    color: #343a40;
+}
+
+h2 {font-family: Baskervville;}
+/* This is a comment*/
+
+h3 
+{margin: 10px;color: white;}
+
+h4
+{font-family: Baskervville; font-weight: bold}
+
+h1 {font-family: Baskervville;
+  	text-decoration: underline; color: white
+	style: "margin: 15px";
+	}
+
+
+h6{
+	color: lightgray;
+	font-family: Baskervville;
+}
+
+p {color: white}
+
+img {
+    width: 550px;
+    margin: 15px;
+    position: center;
+}
+
+ul {
+	color: lightgray;
+}
+
+img.fluid {
+    max-width: 100%;
+    max-height: 100%;
+}

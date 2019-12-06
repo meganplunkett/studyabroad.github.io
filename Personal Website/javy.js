@@ -51,7 +51,7 @@ $(document).ready(function() {
 var content = {
         "navbar": [
             {
-                  "title": "Home Page",
+                  "title": "Home",
                   "url": "pw.html"
             },
             {
@@ -75,8 +75,8 @@ var content = {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "Home page",
-              "subheading": "This is our Home page",
+              "heading": "Megan J. Plunkett",
+              "subheading": "559.284.9740 , meganp2@icloud.com , <p> linkedin.com/in/megan-plunkett-a3a893198 </p>",
             }
           ]
         },
@@ -85,7 +85,7 @@ var content = {
             {
               "type" : "jumbotron",
               "heading": "Cover Letter",
-              "subheading": "This is our Cover Letter",
+              "subheading": "A letter to you",
             }
           ]
         },
@@ -94,7 +94,7 @@ var content = {
             {
               "type" : "jumbotron",
               "heading": "Resume",
-              "subheading": "This is our Resume",
+              "subheading": "An Overview",
             }
           ]
         },
@@ -103,7 +103,7 @@ var content = {
             {
               "type" : "jumbotron",
               "heading": "Works",
-              "subheading": "This is our Works",
+              "subheading": "List of Previous Works",
             }
           ]
         },
@@ -112,7 +112,7 @@ var content = {
             {
               "type" : "jumbotron",
               "heading": "Contact page",
-              "subheading": "This is our Contact page",
+              "subheading": "List of Contacts",
             }
           ] 
         },
