@@ -51,67 +51,67 @@ $(document).ready(function() {
 var content = {
         "navbar": [
             {
-                  "title": "Home",
-                  "url": "index.html"
+                  "title": "Home Page",
+                  "url": "pw.html"
             },
             {
-                  "title": "About Us",
-                  "url": "about.html"
+                  "title": "Cover Letter",
+                  "url": "pw2.html"
             },
             {
-                  "title": "Our Team",
-                  "url": "team.html"
+                  "title": "Resume",
+                  "url": "pw3.html"
             },
             {
-                  "title": "Locations",
-                  "url": "locations.html"
+                  "title": "Works",
+                  "url": "pw4.html"
             },
             {
-                  "title": "Contact Us",
-                  "url": "contact.html"
+                  "title": "Contact",
+                  "url": "pw5.html"
             }
         ],
-        "index.html" : {
+        "pw.html" : {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "Index page",
-              "subheading": "This is our Index page",
+              "heading": "Home page",
+              "subheading": "This is our Home page",
             }
           ]
         },
-        "about.html" : {
+        "pw2.html" : {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "About page",
-              "subheading": "This is our About page",
+              "heading": "Cover Letter",
+              "subheading": "This is our Cover Letter",
             }
           ]
         },
-        "team.html" : {
+        "pw3.html" : {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "Team page",
-              "subheading": "This is our Team page",
+              "heading": "Resume",
+              "subheading": "This is our Resume",
             }
           ]
         },
-        "locations.html" : {
+        "pw4.html" : {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "Locations page",
-              "subheading": "This is our Locations page",
+              "heading": "Works",
+              "subheading": "This is our Works",
             }
           ]
         },
-        "contact.html" : {
+        "pw5.html" : {
           "blocks" : [
             {
               "type" : "jumbotron",
-              "heading": "This is our Contact page",
+              "heading": "Contact page",
               "subheading": "This is our Contact page",
             }
           ] 
@@ -119,15 +119,12 @@ var content = {
 }
 
 
-for(var i=0; i<content.navbar.length; i++){
+for(var i=0; i<content.navbar.length; i++){ 
 
       console.log (content.navbar[i].title+' | '+ content.navbar[i].url); 
 
       $("#mynav").append('<li class="nav-item"><a class="nav-link" href="'+content.navbar[i].url+'">'+ content.navbar[i].title +'</a></li>')
       }
-
-      
-
 
 
 console.log(window.location);
@@ -145,24 +142,5 @@ for(var i=0; i<blocks.length; i++){
        jumbotron(blocks[i]); 
     }
 }
-
-  $.ajax({
-    url: 'https://randomuser.me/api/?results=20',
-    dataType: 'json',
-    success: function(data){
-      console.log(data);
-      for (var i = 0; i<20; i++) {
-        var firstname = data.results[i].name.first
-        var lastname = data.results[i].name.last 
-        var mediumpicture = data.results[i].picture.medium 
-        var nat = data.results[i].nat.toLowerCase()
-      $("#users").append('<div class="col-md-2"> <img src="'+mediumpicture+'" class="fluid rounded-circle"> <p> '+ firstname +' '+lastname +' </p> <p> <span class="flag-icon flag-icon-'+nat+' "></span> </p> <p> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i> </p> </div>');
-    }
-  }
-  });
-
-
+    
  });
-
-
-

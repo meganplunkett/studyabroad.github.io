@@ -1,0 +1,27 @@
+h3, h1 {
+	text-align: center;
+}
+
+.row {
+	display: block;
+}
+
+h1 {
+	font-size: 100px; 
+	font-family: 'Big Shoulders Display';
+}
+
+h3 {
+	font-family: 'Alex Brush', cursive;
+	font-weight: bold;
+}
+
+.carousel {
+	width: 1047px;
+	height:555px;
+	margin: 0 auto;
+}
+
+nav ul{
+	margin-left: 20px;
+}

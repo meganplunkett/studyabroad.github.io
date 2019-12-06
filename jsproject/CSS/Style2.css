@@ -10,7 +10,7 @@ h4
 h1 {font-family: Jomolhari; font-weight: bold; color: #b78282;
   text-decoration: underline}
 
-p {color: white}
+p {color: black}
 
 /*------------*/
 
@@ -37,7 +37,7 @@ img.fluid {
 .img-container {
         text-align: center;
       }
- 
+
 ul {
 letter-spacing: 2px; font-family: Jomolhari;
 }
@@ -56,4 +56,18 @@ div.row {
     background-size: 1600px;
 
 }
+
+a.nav-link {
+    color: pink;
+}
+
+.container {
+  text-align: center;
+  width: 50%
+}
+
+
+
+
+
 
